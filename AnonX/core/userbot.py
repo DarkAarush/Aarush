@@ -141,8 +141,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("DevilsHeavenMF")
-                await self.four.join_chat("FallenAssociation")
+                await self.four.join_chat("Aarushfig")
+                await self.four.join_chat("Aarushfigchannel")
             except:
                 pass
             assistants.append(4)
