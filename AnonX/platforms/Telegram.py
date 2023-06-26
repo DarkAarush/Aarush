@@ -47,16 +47,16 @@ class TeleAPI:
             file_name = file.file_name
             if file_name is None:
                 file_name = (
-                    "ᴛᴇʟᴇɢʀᴀᴍ ᴀᴜᴅɪᴏ"
+                    "𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐀𝐮𝐝𝐢𝐨"
                     if audio
-                    else "ᴛᴇʟᴇɢʀᴀᴍ ᴠɪᴅᴇᴏ"
+                    else "𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐕𝐢𝐝𝐞𝐨"
                 )
 
         except:
             file_name = (
-                "ᴛᴇʟᴇɢʀᴀᴍ ᴀᴜᴅɪᴏ"
+                "𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐀𝐮𝐝𝐢𝐨"
                 if audio
-                else "ᴛᴇʟᴇɢʀᴀᴍ ᴠɪᴅᴇᴏ"
+                else "𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐕𝐢𝐝𝐞𝐨"
             )
         return file_name
 
@@ -119,7 +119,7 @@ class TeleAPI:
                     [
                         [
                             InlineKeyboardButton(
-                                text="↻ ᴄᴀɴᴄᴇʟ ↺",
+                                text="𝐂𝐚𝐧𝐜𝐞𝐥",
                                 callback_data="stop_downloading",
                             ),
                         ]
@@ -138,14 +138,14 @@ class TeleAPI:
                     completed_size = convert_bytes(current)
                     speed = convert_bytes(speed)
                     text = f"""
-**{MUSIC_BOT_NAME} ᴍᴇᴅɪᴀ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ**
+**{MUSIC_BOT_NAME} 𝐌𝐞𝐝𝐢𝐚 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝**
 
-**sɪᴢᴇ :** {total_size}
-**ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ :** {completed_size} 
-**ᴩᴇʀᴄᴇɴᴛᴀɢᴇ :** {percentage[:5]}%
+**𝐒𝐢𝐳𝐞 :** {total_size}
+**𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐝 :** {completed_size} 
+**𝐏𝐞𝐫𝐜𝐞𝐧𝐭𝐚𝐠𝐞 :** {percentage[:5]}%
 
-**sᴩᴇᴇᴅ :** {speed}/s
-**ᴇᴛᴀ :** {eta}"""
+**𝐒𝐩𝐞𝐞𝐝 :** {speed}/s
+**𝐄𝐭𝐚 :** {eta}"""
                     try:
                         await mystic.edit_text(text, reply_markup=upl)
                     except:
@@ -164,7 +164,7 @@ class TeleAPI:
                     progress=progress,
                 )
                 await mystic.edit_text(
-                    "**ғɪʟᴇ sᴜᴄᴄᴇssғᴜʟʟʏ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ.\n\n ᴩʀᴏᴄᴇssɪɴɢ...**"
+                    "**𝐅𝐢𝐥𝐞 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐝.\n\n ᴩʀᴏᴄᴇssɪɴɢ...**"
                 )
                 downloader.pop(message.message_id)
             except:
