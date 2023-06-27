@@ -12,7 +12,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     played_sec = time_to_seconds(played)
     duration_sec = time_to_seconds(dur)
     percentage = (played_sec / duration_sec) * 100
-    anon = math.floor(0.5*percentage)
+    anon = math.floor(percentage)
     anonn = math.floor(2*percentage)
     anonnn = math.floor(percentage)
 
