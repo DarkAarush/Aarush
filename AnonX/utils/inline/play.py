@@ -111,7 +111,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     elif 36 <= anon < 37:
         bar = "lıllılı.ıllı.ıllı.ılılııı.ıllııılılıı"
     elif 37 <= anon < 38:
-        bar = "𝐄α𝗌𝗂ᥣ𝗒 𝐒𝗍𝗋𝖾αꭑ "
+        bar = ".ıllı.ılılııı.ıllıııllı.ılılııı.ıllıı"
     elif 38 <= anon < 39:
         bar = "lıllılı.ıllı..ıllı.ılılııı.ıllıılılıı"
     elif 39 <= anon < 40:
@@ -145,7 +145,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     elif 53 <= anon < 54:
         bar = "lıllılı.ıllı.ılı.ıllı.ılılııı.ıllıılıı"
     elif 54 <= anon < 55:
-        bar = "lıllılı.ıllı.ılılıı"
+        bar = "lıllılı.ıllı.ılıl.ıllı.ılılııı.ıllıııı"
     elif 55 <= anon < 56:
         bar = ".ılıl.ıllı.ılılııı.ıllıııl.ıllı.ılılıı"
     elif 56<= anon < 57:
@@ -159,7 +159,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     elif 60 <= anon < 61:
         bar = "lıllılı.ıllı.ıl.ıllı.ılılııı.ıllııılıı"
     elif 61 <= anon < 62:
-        bar = ".ılılıl.ıllı.ılılıı"
+        bar = ".ılılıl.ıllı.ılıl.ıllı.ılılııı.ıllıııı"
     elif 62 <= anon < 63:
         bar = "lıllılı.ıllı..ıllı.ılılııı.ıllııılılıı"
     elif 63 <= anon < 64:
@@ -209,7 +209,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     elif 85 <= anon < 86:
         bar = "l.ıllı.ılılııı.ıllıııllılı.ıllı.ılılıı"
     elif 86 <= anon < 87:
-        bar = ".ılılıl.ıllı.ılılıı"
+        bar = ".ılılıl.ıllı.ıl.ıllı.ılılııı.ıllııılıı"
     elif 87 <= anon < 88:
         bar = "lıl.ıllı.ılılııı.ıllıılılı.ıllı.ılılıı"
     elif 88 <= anon < 89:
