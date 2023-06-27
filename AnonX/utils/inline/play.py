@@ -363,7 +363,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             InlineKeyboardButton(
                 text="𝐏𝗋ⱺ𝗀𝗋αꭑꭑ𝖾𝗋", url=f"https://wynk.in/music"
             )
-        ]
+        ], 
             InlineKeyboardButton(
                 text="𝑪𝒍𝒐𝒔𝒆", callback_data="close"
             )
