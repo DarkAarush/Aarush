@@ -105,25 +105,25 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 
     
     if 0 < anonnn <= 10:
-        baa = "⚪─────────"
+        baa = "⚪═════════"
     elif 10 < anonnn < 20:
-        baa = "━⚪────────"
+        baa = "▬⚪════════"
     elif 20 <= anonnn < 30:
-        baa = "━━⚪───────"
+        baa = "▬▬⚪═══════"
     elif 30 <= anonnn < 40:
-        baa = "━━━⚪──────"
+        baa = "▬▬▬⚪══════"
     elif 40 <= anonnn < 50:
-        baa = "━━━━⚪─────"
+        baa = "▬▬▬▬⚪═════"
     elif 50 <= anonnn < 60:
-        baa = "━━━━━⚪────"
+        baa = "▬▬▬▬▬⚪════"
     elif 60 <= anonnn < 70:
-        baa = "━━━━━━⚪───"
+        baa = "▬▬▬▬▬▬⚪═══"
     elif 70 <= anonnn < 80:
-        baa = "━━━━━━━⚪──"
+        baa = "▬▬▬▬▬▬▬⚪══"
     elif 80 <= anonnn < 95:
-        baa = "━━━━━━━━⚪─"
+        baa = "▬▬▬▬▬▬▬▬⚪═"
     else:
-        baa = "━━━━━━━━━⚪"
+        baa = "▬▬▬▬▬▬▬▬▬⚪"
 
 #bar of wynk---------------------------------------
     if 0 < anon <= 1:
