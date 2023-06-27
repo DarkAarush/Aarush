@@ -86,17 +86,17 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     elif 130 <= anonn < 140:
         ba = "✯"
     elif 140 <= anonn < 150:
-        ba = ""
+        ba = "✺"
     elif 150 <= anonn < 160:
-        ba = ""
+        ba = "❃"
     elif 160 <= anonn < 170:
-        ba = ""
+        ba = "✬"
     elif 170 <= anonn < 180:
-        ba = ""
+        ba = "❂"
     elif 180 <= anonn < 195:
-        ba = ""
+        ba = "✮"
     else:
-        ba = ""
+        ba = "✯"
 
 
 
