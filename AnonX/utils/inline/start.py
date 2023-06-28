@@ -3,6 +3,14 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 import config
+import time 
+
+
+startTime = time.time()
+for i in range(0,5):
+   print(i)
+   time.sleep(3)
+
 
 
 def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
