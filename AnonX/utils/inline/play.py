@@ -127,10 +127,6 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     else:
         baa = "▬▬▬▬▬▬▬▬▬⚪"
 
-    startTime = time.time()
-    for i in range(0,10):
-        print(i)
-        time.sleep(3)
 
 #bar of wynk---------------------------------------
     if 0 < anon <= 1:
@@ -344,7 +340,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=f"{i} {b} {bar} {ba}",
+                text=f"{b} {bar} {ba}",
                 callback_data="GetTimer",
             )
         ],
