@@ -30,18 +30,31 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="𝐀ᑯᑯ 𝐉𝗂ⱺ 𝐒αα𝗏𐓣 𝚰𐓣 𝐆𝗋ⱺυρ",
+                text="⇍𝐀ᑯᑯ 𝐢 𝐇𝖾𝐚𝐫𝗍 𝚰𐓣 𝐆𝗋ⱺυρ⇏",
                 url=f"https://t.me/JiosaavnTetrisbot?startgroup=true",
+            )
+        ],
+
+        
+        [
+        
+            InlineKeyboardButton(
+                text="❁══╡𝐒ⱺυ𝗋𝖼𝖾╞══❁", url=f"https://www.jiosaavn.com/"
+            )
+        ],
+
+        
+        [
+        
+            InlineKeyboardButton(
+                text="❁══╡𝐂ⱺ𐓣𝗍𝖾𐓣𝗍╞══❁", url=f"https://www.jiosaavn.com/"
             )
         ],
         [
             InlineKeyboardButton(
-                text="𝑯𝒆𝒍𝒑", callback_data="settings_back_helper"
-            ),
-            InlineKeyboardButton(
-                text="𝐉𝗂ⱺ 𝐒αα𝗏𐓣", url=f"https://www.jiosaavn.com/"
+                text="❁══╡𝐇𝖾ᥣρ╞══❁", callback_data="settings_back_helper"
             )
-        ],
+        ], 
      ]
     return buttons
 
