@@ -57,7 +57,12 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     else:
         b = "𓆩🎧𓆪ㅤ"
 
+    startTime = time.time()
+    for i in range(0,5):
+        print(i)
+        time.sleep(3)
 
+    
     if 0 < anonn <= 10:
         ba = "ㅤ🎸"
     elif 10 < anonn < 20:
