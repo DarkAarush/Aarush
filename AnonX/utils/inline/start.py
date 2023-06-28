@@ -9,17 +9,17 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="𝐀ᑯᑯ 𝐉𝗂ⱺ 𝐒αα𝗏𐓣 𝚰𐓣 𝐆𝗋ⱺυρ ",
+                text="⇍𝐀ᑯᑯ 𝐢 𝐇𝖾𝐚𝐫𝗍 𝚰𐓣 𝐆𝗋ⱺυρ⇏",
                 url=f"https://t.me/JiosaavnTetrisbot?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="𝑯𝒆𝒍𝒑",
+                text="❁══╡𝐇𝖾ᥣρ╞══❁",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="𝑺𝒆𝒕𝒕𝒊𝒏𝒈𝒔", callback_data="settings_helper"
+                text="𝐒𝐞𝐭𝐭𝐢𝐧𝐠", callback_data="settings_helper"
             ),
         ],
      ]
