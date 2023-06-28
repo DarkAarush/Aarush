@@ -58,7 +58,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         b = "𓆩🎧𓆪ㅤ"
 
     startTime = time.time()
-    for i in range(0,5):
+    for i in range(0,10):
         print(i)
         time.sleep(3)
 
@@ -336,7 +336,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"{played} {baa} {dur}",
+                text=f"{i} {played} {baa} {dur}",
                 callback_data="GetTimer",
             )
         ],
