@@ -14,12 +14,12 @@ from AnonX import app
 
 YOUTUBE_IMG_URL = [ 
 
-"",
-"",
-"",
-"",
-"",
-"",
+"https://graph.org/file/d3b95355270a59a646d11.jpg",
+"https://graph.org/file/80a815fc399268b7e7615.jpg",
+"https://graph.org/file/e75b42d5e53a5b2b6a66a.jpg",
+"https://graph.org/file/0612ac97ea873dac31b7f.jpg",
+"https://graph.org/file/908526c5a94b90cff5435.jpg",
+"https://graph.org/file/c448f32953dcd2d9507fb.jpg",
 "",
 "",
 "",
@@ -32,14 +32,14 @@ YOUTUBE_IMG_URL = [
     
     ]
 
-YOUTUBE_IMG_URL = [ 
+YOUTUBE_IMG_URLL = [ 
 
-"",
-"",
-"",
-"",
-"",
-"",
+"https://graph.org/file/b410d7329decfa19108e0.jpg",
+"https://graph.org/file/83a51633ce0ea305d17b3.jpg",
+"https://graph.org/file/37f5f9406efcf06da7286.jpg",
+"https://graph.org/file/7338c0db231db085f8775.jpg",
+"https://graph.org/file/145f1e620ea6eb224ff0b.jpg",
+"https://graph.org/file/f86d70519dde9c181f088.jpg",
 
     
     ]
@@ -342,4 +342,4 @@ async def gen_qthumb(videoid, user_id):
         return f"cache/que{videoid}_{user_id}.png"
     except Exception as e:
         print(e)
-        return random.choice(YOUTUBE_IMG_URL)
+        return random.choice(YOUTUBE_IMG_URLL)
