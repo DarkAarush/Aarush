@@ -76,11 +76,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://images.app.goo.gl/j7Eq9WyfZB9qKA1t6")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/dab9845af235076bde502.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://images.app.goo.gl/sZchWhFinM1vb4Bs9",
+    "https://graph.org/file/dab9845af235076bde502.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://images.app.goo.gl/rcNY1uNxT7BtMZz89"
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://images.app.goo.gl/sZchWhFinM1vb4Bs9"
+            PING_IMG_URL = "https://graph.org/file/dab9845af235076bde502.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://images.app.goo.gl/j7Eq9WyfZB9qKA1t6"
+            START_IMG_URL = "https://graph.org/file/dab9845af235076bde502.jpg"
