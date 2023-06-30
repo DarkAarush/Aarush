@@ -39,7 +39,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
         
             InlineKeyboardButton(
-                text="❁══╡𝐒ⱺυ𝗋𝖼𝖾╞══❁", url=f"https://www.jiosaavn.com/"
+                text=" 𝐒ⱺυ𝗋𝖼𝖾 ", url=f"https://www.jiosaavn.com/"
             )
         ],
 
@@ -47,12 +47,12 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
         
             InlineKeyboardButton(
-                text="❁══╡𝐂ⱺ𐓣𝗍𝖾𐓣𝗍╞══❁", url=f"https://www.jiosaavn.com/"
+                text="𝐂ⱺ𐓣𝗍𝖾𐓣𝗍", url=f"https://www.jiosaavn.com/"
             )
         ],
         [
             InlineKeyboardButton(
-                text="❁══╡𝐇𝖾ᥣρ╞══❁", callback_data="settings_back_helper"
+                text="𝐇𝖾ᥣρ", callback_data="settings_back_helper"
             )
         ], 
      ]
