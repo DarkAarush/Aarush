@@ -10,7 +10,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
             InlineKeyboardButton(
                 text="⇍𝐀ᑯᑯ 𝐢 𝐇𝖾𝐚𝐫𝗍 𝚰𐓣 𝐆𝗋ⱺυρ⇏",
-                url=f"https://t.me/JiosaavnTetrisbot?startgroup=true",
+                url=f"https://t.me/iheart_musicbot?startgroup=true",
             )
         ],
         [
@@ -31,7 +31,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
             InlineKeyboardButton(
                 text="⇍𝐀ᑯᑯ 𝐢 𝐇𝖾𝐚𝐫𝗍 𝚰𐓣 𝐆𝗋ⱺυρ⇏",
-                url=f"https://t.me/JiosaavnTetrisbot?startgroup=true",
+                url=f"https://t.me/iheart_musicbot?startgroup=true",
             )
         ],
 
@@ -39,7 +39,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
         
             InlineKeyboardButton(
-                text=" 𝐒ⱺυ𝗋𝖼𝖾 ", url=f"https://www.jiosaavn.com/"
+                text=" 𝐒ⱺυ𝗋𝖼𝖾 ", url=f"https://t.me/Aarushfigchannel"
             )
         ],
 
@@ -47,7 +47,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
         
             InlineKeyboardButton(
-                text="𝐂ⱺ𐓣𝗍𝖾𐓣𝗍", url=f"https://www.jiosaavn.com/"
+                text="𝐂ⱺ𐓣𝗍𝖾𐓣𝗍", url=f"https://t.me/Aarushfig"
             )
         ],
         [
